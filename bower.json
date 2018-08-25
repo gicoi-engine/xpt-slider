@@ -1,0 +1,17 @@
+{
+  "name": "xpt-slider",
+  "authors": [
+    "JunYuan Yan <jyyan.tw@gmail.com>"
+  ],
+  "description": "xpt slider",
+  "main": "xpt-slider.js",
+  "license": "MIT",
+  "homepage": "http://jyyan.info",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
