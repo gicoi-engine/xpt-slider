@@ -10,6 +10,8 @@
           interval: intervalTime
         });
 
+        // fix touch screen device issue
+        // ref : https://github.com/twbs/bootstrap/issues/17118
         var hammertime = new Hammer(this, {
           recognizers: [
             [Hammer.Swipe, { direction: Hammer.DIRECTION_HORIZONTAL }]
