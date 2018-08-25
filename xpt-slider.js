@@ -9,6 +9,19 @@
         $slider.carousel({
           interval: intervalTime
         });
+
+        var hammertime = new Hammer(this, {
+          recognizers: [
+            [Hammer.Swipe, { direction: Hammer.DIRECTION_HORIZONTAL }]
+          ]
+        });
+        hammertime.on('swipeleft', function () {
+          $slider.carousel('next');
+        });
+        hammertime.on('swiperight', function () {
+          $slider.carousel('prev');
+        });
+
         $slider.on('slid.bs.carousel', function (e) {
           $slider.carousel('cycle');
           //console.log($(e.target).find('.carousel-item').eq(e.to).find('video'));
