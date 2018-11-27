@@ -1,0 +1,32 @@
+{
+  "name": "xpt-slider",
+  "authors": [
+    "JunYuan Yan <jyyan.tw@gmail.com>"
+  ],
+  "description": "xpt slider",
+  "main": "xpt-slider.js",
+  "license": "MIT",
+  "homepage": "http://jyyan.info",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "bootstrap": "^4.1.3",
+    "hammerjs": "^2.0.8",
+    "animate.css": "^3.7.0"
+  },
+  "_release": "6237c97c55",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "6237c97c5557a83dac12238ed06affb10e47eb35"
+  },
+  "_source": "https://github.com/gicoi-engine/xpt-slider.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/gicoi-engine/xpt-slider.git"
+}
